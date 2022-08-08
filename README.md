@@ -1,0 +1,31 @@
+# PHP exceptions: Tratamento de erros
+
+- Como funciona a execução de um programa PHP
+- O que é a call stack, ou pilha de execução
+- O conceito de depuração
+- Que problemas podem acontecer durante o desenvolvimento
+- Como o PHP reporta o acontecimento destes problemas através de exceções
+- A tratar possíveis erros, utilizando try - catch
+- A tratar mais de uma exceção por vez, utilizando o multi-catch, com o operador |
+- Que pode fazer sentido nós mesmos lançarmos exceções em nosso código
+- Que uma exceção nada mais é do que uma classe, logo, podemos instanciar exceções
+- A utilizar a palavra throw, para lançar uma exceção em nosso código
+- Que uma IDE pode nos dar algumas dicas sobre exceções em códigos
+- A hierarquia de exceções (e erros) no PHP
+- A diferença entre exceções (Exception) e erros (Error), analisando essa hierarquia
+- Alguns dos erros e exceções já existentes no PHP
+- Como capturar exceções (e erros) de forma mais genérica, através do conhecimento dessa hierarquia
+- Como criar a nossa própria exceção, estendendo de alguma classe de exceção já existente
+- A aplicar todo o conhecimento das aulas anteriores em um projeto prático
+- Quando faz sentido lançar uma exceção já existente ou uma exceção criada por nós
+- A personalizar uma exceção e sobrescrever o construtor em nossa própria exceção
+- A utilizar o finally
+- Que nem sempre ele é útil, e às vezes podemos simplesmente colocar o código fora do try - catch
+- Como o PHP tratava os erros antes da versão 7
+- Os principais tipos de erros do PHP:
+    - Notice
+    - Warning
+    - Error (erro fatal)
+- Diversas configurações relacionadas à exibição e log de erros
+- A tratar os erros utilizando a função set_error_handler
+- Que, normalmente, ferramentas especializadas em tratar erros cuidam dessa parte para nós
